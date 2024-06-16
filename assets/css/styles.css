@@ -1,0 +1,153 @@
+/* configuracion paleta colores https://coolors.co/palette/e7ecef-274c77-6096ba-a3cef1-8b8c89 */
+:root {                                 
+    --primary-color: #274c775e;          /* Color oscuro para textos y fondo de cabecera */
+    --secondary-color: #e7ecef;        /* Color claro para fondos y secciones */
+    --highlight-color: #add2f09d;        /* Color de acento para enlaces y botones */
+    --text-color: #131212;             /* Color de texto principal */     
+}
+
+
+/* IMAGEN DE FONDO RESPONSIVA */
+body {                                     /*estilo de fondo del sitio */
+    background-image: url(/assets/img/construction-site-in-dubai.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: var(--secondary-color);  */
+}
+
+/* ESTILOS DE SECCIONES */
+header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+/* MAIN*/
+main {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 732;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 86.3;
+    color: var(--text-color);
+}
+/*FOOTER */
+.footer {
+    background-color: var(--primary-color); 
+    color: var(--secondary-color);
+}
+
+.color_main {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.color_modal {
+    backdrop-filter: blur(12px) saturate(158%);
+    -webkit-backdrop-filter: blur(12px) saturate(158%);
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+
+/* ESTILOS DEL NAVBAR */
+.navbar-brand {
+    color: var(--secondary-color);        /* Color del texto de la marca (logo) */
+    font-size: 1.5rem;                    /* Tamaño de la fuente de la marca */
+    font-weight: lighter;                 /* Negrita para la marca */
+}
+.navbar .nav-link {
+    color: var(--secondary-color);
+    font-weight: bold;
+
+}
+.navbar .nav-link:hover,
+.navbar .nav-item.active .nav-link {
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
+
+
+/* GALERIA Y CONTACTO */	
+h4, h5 {
+    background-color: var(--secondary-color);
+    border-radius: 0.2em;
+}
+#galeria {
+    font-style: oblique;
+}
+#im {
+    border-radius: 1em;
+}
+/* #contacto {
+    font-style: oblique;
+} */
+
+.card-img-top{
+    background-color: var(--secondary-color);
+}
+
+
+
+/* CSS PARA ICONOS DE RRSS */
+#icons a:hover img{
+    opacity: .2;
+    transition: all .75s;
+    -webkit-transition: all .75s;
+}
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al hacer hover */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+/* Estilo para el efecto click */
+.social-icon:active {
+    transform: scale(0.9); /* Reduce el tamaño al hacer click */
+}
+
+section > .color_main.container {
+    margin-top: 1em; /* Ajusta este valor a tus necesidades */
+}
+
+.color_main.container.col-6 {
+    margin-top: 1em; /* Ajusta este valor a tus necesidades */
+}
+
+
+/* #texto_portada {                                    /// stock fuente cursiva
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    color: var(--text-color)
+}
+
+.ubuntu-sans {                                             
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 251;
+  font-style: normal;
+  font-variation-settings: "wdth" 86.3;
+  color: var(--text-color);
+
+}
+
+
+
+.ubuntu-sans-b {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 732;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 86.3;
+    color: var(--text-color);
+
+  }
+ */
