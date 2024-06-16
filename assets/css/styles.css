@@ -9,7 +9,7 @@
 
 /* IMAGEN DE FONDO RESPONSIVA */
 body {                                     /*estilo de fondo del sitio */
-    background-image: url(/assets/img/construction-site-in-dubai.jpg);
+    background-image: url(../img/construction-site-in-dubai.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
